@@ -1,0 +1,30 @@
+{
+  "name": "api.nlw.copa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranklysG/api.nlw.copa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranklysG/api.nlw.copa/issues"
+  },
+  "homepage": "https://github.com/FranklysG/api.nlw.copa#readme",
+  "devDependencies": {
+    "prisma": "^4.5.0",
+    "tsx": "^3.11.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.5.0",
+    "fastify": "^4.9.2"
+  }
+}

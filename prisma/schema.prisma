@@ -59,4 +59,6 @@ model Guesses {
   
   participants Participants @relation(fields: [participant_id], references: [id])
   games Games @relation(fields: [game_id], references: [id])
+
+  @@unique([participant_id, game_id])
 }

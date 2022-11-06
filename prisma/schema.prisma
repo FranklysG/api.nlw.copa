@@ -32,6 +32,7 @@ model Participants {
 }
 model Users {
   id String @id @default(cuid())
+  googleId String? @unique
   name String
   email String @unique
   avatar String?
